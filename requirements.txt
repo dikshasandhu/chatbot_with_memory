@@ -13,7 +13,7 @@ unstructured[pdf]
 tabulate
 pdf2image
 pytesseract
-tesseract-ocr-all
+tesseract-ocr
 chromadb
 sentence_transformers
 InstructorEmbedding
