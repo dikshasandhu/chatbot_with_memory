@@ -1,11 +1,9 @@
 import os 
 from langchain.document_loaders import DirectoryLoader
 from langchain.text_splitter import CharacterTextSplitter
-from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.embeddings import GooglePalmEmbeddings
 from langchain.llms import GooglePalm
 from langchain.vectorstores import Chroma
-from langchain.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
 from dotenv import load_dotenv 
 import streamlit as st 
@@ -48,13 +46,7 @@ def embeddings_store():
     vectordb = Chroma(persist_directory=persist_directory,
                   embedding_function=embedding)
     retriever = vectordb.as_retriever()
-    #db = DeepLake.from_documents(texts, embeddings, dataset_path=f"hub://aianytime07/text_embedding")
-  
-    #db = DeepLake(
-    #dataset_path=f"hub://aianytime07/text_embedding",
-    #read_only=True,
-    #embedding_function=embeddings,
-    #)
+
     return retriever
 
 @st.cache_resource
