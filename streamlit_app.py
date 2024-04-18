@@ -32,7 +32,6 @@ def doc_preprocessing():
     docs_split = text_splitter.split_documents(docs)
     return docs_split
 
-@st.cache_resource
 def embeddings_store():
     embedding = GooglePalmEmbeddings()
     texts = doc_preprocessing()
@@ -48,7 +47,6 @@ def embeddings_store():
 
     return retriever
 
-@st.cache_resource
 def search_db():
     retriever = embeddings_store()
     retriever.search_kwargs['distance_metric'] = 'cos'
