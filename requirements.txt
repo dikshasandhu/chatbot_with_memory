@@ -12,6 +12,6 @@ pdf2image
 chromadb==0.4.13
 google-cloud-aiplatform==1.33.1
 google-generativeai==0.2.0
-streamlit==1.13.0
+streamlit
 
 
