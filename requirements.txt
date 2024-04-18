@@ -10,7 +10,6 @@ unstructured[pdf]
 tabulate
 pdf2image
 altair
-libgl1-mesa-glx
 libgl1
 opencv-python
 freeglut3-dev
