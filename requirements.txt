@@ -10,7 +10,10 @@ unstructured[pdf]
 tabulate
 pdf2image
 altair
+libgl1-mesa-glx
+libgl1
 opencv-python
+freeglut3-dev
 langchain_community
 chromadb==0.4.13
 google-cloud-aiplatform==1.33.1
