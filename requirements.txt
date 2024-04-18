@@ -5,6 +5,7 @@ python-dotenv
 bs4
 requests
 pypdf
+unstructured
 unstructured[pdf]
 tabulate
 pdf2image
