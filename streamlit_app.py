@@ -18,7 +18,6 @@ os.environ['GOOGLE_API_KEY'] = 'AIzaSyAd8i43T-iHpgc7OqnFiuf9HgL3zyaK194'
 #os.environ['ACTIVELOOP_TOKEN'] = base64.b64decode(os.getenv('eyJhbGciOiJIUzUxMiIsImlhdCI6MTY5NTk0ODgyMiwiZXhwIjoxNzI3NTcxMjE1fQ.eyJpZCI6ImRpa3NoYXNhbmRodTEzMjAwMiJ9.ymCKty32iLmatS4n4wPNYI1EKmStu-7jaKmDhSilItdXCQmvmsFMGfyjnA4hkhSnqh77NthgjNnhshtolG7VLA'))
 #os.environ['dikshasandhu132002']= os.getenv('dikshasandhu132002')
 
-@st.cache_data
 def doc_preprocessing():
     loader = DirectoryLoader(
         'data/',
