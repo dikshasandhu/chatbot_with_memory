@@ -9,6 +9,5 @@ unstructured[pdf]
 google-generativeai
 streamlit
 streamlit_chat
-opencv-python-headless
 libGL.so.1
 
