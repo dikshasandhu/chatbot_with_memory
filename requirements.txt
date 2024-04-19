@@ -20,7 +20,6 @@ google-cloud-aiplatform
 google-generativeai
 pandas
 nltk
-libglib2.0-0
 opencv-python-headless
 scikit-learn
 httpx_oauth
