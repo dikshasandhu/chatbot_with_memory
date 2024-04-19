@@ -5,6 +5,7 @@ tiktoken
 chromadb
 pandas
 python-dotenv
+unstructured
 unstructured[pdf]
 google-generativeai
 streamlit
