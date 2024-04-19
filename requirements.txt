@@ -22,6 +22,9 @@ pandas
 nltk
 scikit-learn
 httpx_oauth
+ultralytics
+opencv-python
+opencv-python-headless
 pandas
 python-dotenv
 
