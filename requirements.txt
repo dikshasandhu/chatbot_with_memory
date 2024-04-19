@@ -19,6 +19,7 @@ InstructorEmbedding
 google-cloud-aiplatform
 google-generativeai
 pandas
+opencv-python
 scikit-learn
 httpx_oauth
 pandas
