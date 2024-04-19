@@ -12,7 +12,6 @@ streamlit
 pypdf
 pdf2image
 langchain-community
-poppler
 streamlit_chat
 opencv-python-headless
 
