@@ -9,6 +9,8 @@ unstructured[pdf]
 google-generativeai
 streamlit
 pypdf
+pdf2image
+langchain-community
 streamlit_chat
 opencv-python-headless
 
